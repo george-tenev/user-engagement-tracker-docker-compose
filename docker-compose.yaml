@@ -11,7 +11,7 @@ services:
     depends_on:
       - broker
   consumer:
-    image: gogata399/user-event-consumer:0.0.1
+    image: gogata399/user-event-consumer:0.1.0
     ports:
       - "8081:8081"
     environment:
